@@ -2,7 +2,7 @@
 class prac32Thread extends Thread {
     public void run() {
         System.out.println("Hello World");
-        System.out.print("\nName : Mohit Barad_23DCS006 ");
+        System.out.print("\nName : PRINCE MALAVIYA_23DCS057 ");
     }
 
     public static void main(String[] args) {
@@ -15,7 +15,6 @@ class prac32Thread extends Thread {
 class prac32 implements Runnable {
     public void run() {
         System.out.println("Hello World");
-        System.out.print("\nName : PRINCE MALAVIYA_23DCS057 ");
     }
 
     public static void main(String[] args) {
