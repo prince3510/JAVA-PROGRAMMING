@@ -1,0 +1,25 @@
+// using Thread class
+class prac32Thread extends Thread {
+    public void run() {
+        System.out.println("Hello World");
+        System.out.print("\nName : Mohit Barad_23DCS006 ");
+    }
+
+    public static void main(String[] args) {
+        prac32Thread thread = new prac32Thread();
+        thread.start();
+    }
+}
+
+// using Runnable interface
+class prac32 implements Runnable {
+    public void run() {
+        System.out.println("Hello World");
+        System.out.print("\nName : PRINCE MALAVIYA_23DCS057 ");
+    }
+
+    public static void main(String[] args) {
+        Thread thread = new Thread(new prac32());
+        thread.start();
+    }
+}
