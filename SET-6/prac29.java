@@ -33,6 +33,5 @@ public class prac29 {
         int primitiveInt = wrapperInt.intValue(); // Converting back to primitive int
         System.out.println("Wrapper Class Example: Integer value is " + wrapperInt + " and primitive int value is " + primitiveInt);
 
-        System.out.print("\nName : PRINCE MALAVIYA_23DCS057 ");
     }
 }
