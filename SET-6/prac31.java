@@ -40,6 +40,5 @@ class prac31 {
         } catch (IOException e) {
             System.err.println("Error with BufferedReader/BufferedWriter: " + e.getMessage());
         }
-        System.out.print("\nName : PRINCE MALAVIYA_23DCS057 ");
     }
 }
